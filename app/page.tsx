@@ -1203,19 +1203,28 @@ export default function Portfolio() {
             </motion.div>
 
             <Tabs defaultValue="languages" className="w-full">
-              <TabsList className="grid w-full grid-cols-2 md:grid-cols-4 mb-8">
-                <TabsTrigger value="languages" className="text-xs sm:text-sm">
+              <TabsList className="grid w-full grid-cols-4 mb-8 h-auto p-1">
+                <TabsTrigger
+                  value="languages"
+                  className="text-xs sm:text-sm px-2 sm:px-3"
+                >
                   Languages
                 </TabsTrigger>
-                <TabsTrigger value="frameworks" className="text-xs sm:text-sm">
+                <TabsTrigger
+                  value="frameworks"
+                  className="text-xs sm:text-sm px-2 sm:px-3"
+                >
                   Frameworks
                 </TabsTrigger>
-                <TabsTrigger value="tools" className="text-xs sm:text-sm">
+                <TabsTrigger
+                  value="tools"
+                  className="text-xs sm:text-sm px-2 sm:px-3"
+                >
                   Tools
                 </TabsTrigger>
                 <TabsTrigger
                   value="specializations"
-                  className="text-xs sm:text-sm"
+                  className="text-xs sm:text-sm px-2 sm:px-3"
                 >
                   AI/ML
                 </TabsTrigger>
